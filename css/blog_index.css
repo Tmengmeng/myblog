@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+.main{width:1000px;min-width:890px;margin:0 auto;height:250px;margin-top:-435px;}
+/* 轮播的样式 */
+.lunbo{width:1000px;height:305px;margin:0 auto;box-sizing:border-box;min-width:890px;}
+.lunbo .left{width:1000px;height:305px;box-sizing:border-box;float:left;background-color: #EFEFEF;}
+.lunbo .left .big_pic{width:870px;height:300px;border:1px solid #DDD;float:left;}
+.big_pic .big_ul{list-style: none;}
+.big_pic .big_ul li{display:none;width:100%;height:100%;}
+.big_pic .big_ul li.cur{display:block;} 
+.big_pic .big_ul li img{width:100%;height:300px;}
+ .lunbo .left .min_pic{width:114px;height:300px;float:right;position:relative;}
+.min_pic .min_ul{list-style: none;width:114px;height:300px;z-index: 1000;}
+.min_pic .min_ul li{width:100px;height:60px;padding:5px 5px;box-sizing:border-box;}
+.min_pic .min_ul li a{width:100%;height:100%;display:block;}
+.min_pic .min_ul li a img{vertical-align: middle;width:100%;height:100%;box-sizing:border-box;z-index:1000;}
+.lunbo .left .min_pic .slid{width:124px;height:60px;position:absolute;top:0px;left:-15px;background: url(../img/slid.png) no-repeat;transition:0.8s;}
+/* 主体部分的样式 */
+.content{width:1000px;height:1735px;margin:0 auto;box-sizing:border-box;min-width:890px;}
+.content .sentence{width:1000px;height:80px;border:1px solid #DDD;margin: 0 auto;box-sizing:border-box;margin-top:10px;background-color: #EFEFEF;}
+.content .sentence .sen_title{width:100px;height:40px;text-align: center;line-height: 40px;margin-left:50%;margin:0 auto;font-size:16px;}
+.content .sentence .juzi{width:1000px;border-top:1px solid #DDD;}
+/* 主体部分的左边的样式 */
+.content .con{width: 1000px;height:1650px;margin:0 auto;margin-top:10px;background-color: white;}
+.con .con_left{width:690px;height:1480px;float:left;box-sizing:border-box;}
+.con_left .p{width:690px;height:40px;font-size:16px;line-height:40px;background-color: #EFEFEF;font-weight: bold;}
+.con_left .hotp{position:relative;}
+.con_left .hotp .span-1{position:absolute;top:27px;left:-2px;width:62px;height:40px;background: url(../img/hot.png) no-repeat;}
+.con_left .hotp .span-2{position:absolute;top:227px;left:-2px;width:62px;height:40px;background: url(../img/xin.png) no-repeat;}
+.con_left .list{width:690px;list-style: none;}
+.con_left .list .li-text{width:690px;height:170px;box-sizing:border-box;padding:10px 0px;background-color: #EFEFEF;margin-top:30px;padding-left:20px;border-radius:10px;transition:0.2s;box-sizing:border-box;}
+.con_left .list .li-text:first-child{margin-top:0px;border-radius:0px;}
+.con_left .list .li-text:hover{box-shadow:10px 10px 5px gray;-moz-box-shadow:10px 10px 5px gray;cursor:pointer;};
+.con_left .list .li-text .img-box{width:150px;height:142px;float:left;}
+.con_left .list .li-text .img-box a{width:150px;height:142px;display:inline-block;}
+.con_left .list .li-text .img-box a img{width:100%;height:100%;}
+.con_left .list .li-text .news-content{width:500px;height:142px;float:right;}
+.news-content .news-title{font-size:18px;font-weight: bold;text-decoration: none;color:black;}
+.news-content .news-author{width:500px;height:20px;}
+.news-content .news-author .span{color:#949EB4;margin-left:20px;font-size:14px;margin-top:5px;display:block;float:left;}
+.news-content .news-author .span:first-child{margin-left:0px;}
+.news-content .news-text{width:500px;height:100px;}
+.news-content .news-text p{width:490px;height:90px;text-align: left;font-size:15px;margin-top:10px;line-height:25px;}
+/* 主体部分右边的样式 */
+.con .con_right{width:290px;height:1480px;box-sizing:border-box;float:right;}
+.con_right .p{width:290px;height:40px;font-size:16px;line-height:40px;font-weight:bold;background-color: #EFEFEF;margin-top:17.5px;}
+.con_right .hot-tips{width:290px;height:190px;box-sizing:border-box;list-style: none;background-color: #EFEFEF;}
+.hot-tips .hot-title{width:290px;height:40px;list-style: none;box-sizing:border-box;}
+.hot-tips .hot-title li{width:80px;height:35px;float:left;text-align: left;line-height: 35px;background-color: #DDD;}
+.hot-tips .hot-list{width:268px;height:200px;padding-left:36px;position:relative;}
+.hot-list .minhot-1{position:absolute;top:6px;left:3px;width:16px;height:16px;display:inline-block;background: url(../img/minhot.png) no-repeat;}
+.hot-list .minhot-2{position:absolute;top:35px;left:3px;width:16px;height:16px;display:inline-block;background: url(../img/minxin.png) no-repeat;}
+.hot-list .minhot-3{position:absolute;top:65px;left:3px;width:16px;height:16px;display:inline-block;background: url(../img/minpin.png) no-repeat;}
+.hot-tips .hot-list li{width:290px;height:30px;}
+.hot-tips .hot-list li a{width:260px;height:30px;display:block;float:left;text-align: left;color:black;text-decoration: none;font-size:13px;line-height: 21px;}
+.hot-tips .hot-list li:hover a{color:gray;}
+.con_right .guanzhu{width:290px;height:150px;box-sizing:border-box;list-style: none;padding-left:28px;background-color: #EFEFEF;}
+.con_right .guanzhu li{width:260px;height:30px;text-align: left;line-height: 30px;font-size:13px;}
+.con_right .guanzhu li a{width:100px;height:20px;display: inline-block;font-size:14px;text-decoration: none;line-height: 20px;color:black; }
+.con_right .guanzhu li a:hover{color:#13227A;text-decoration: underline;}
+.con_right .guanzhu li .a-1{background: url(../img/msg.png) no-repeat;padding-left:35px;background-position-y:0px;background-size:30px 100%; }
+.con_right .guanzhu li .a-2{background: url(../img/qq.png) no-repeat;padding-left:35px;background-position-y:0px; background-size:30px 100%;}
+.con_right .guanzhu li .a-3{background: url(../img/qun.png) no-repeat;padding-left:35px;background-position-y:0px; background-size:30px 100%;}
+.con_right .guanzhu li .a-4{background: url(../img/weibo.png) no-repeat;padding-left:35px;background-position-y:0px; background-size:30px 100%;}
+
+.con_right .guanzhu li span{float:left;width:65px;height:30px;display: inline-block;line-height: 30px;text-align: center;}
+
+
+/* 一路走来的样式 */
+.con_right .walk{width:290px;height:430px;list-style: none;background-color: #EFEFEF;margin-top:-10px;}
+.con_right .walk li{width:290px;height:76px;margin-top:10px;padding-left:20px;box-sizing:border-box;}
+.con_right .walk span{width:250px;height:20px;display:block;float: left;font-size:14px;color:#6E7377;}
+.con_right .walk .w-time{font-size:15px;font-weight: bold;color:#6E7377;}
+.con_right .web{width:290px;height:190px;box-sizing:border-box;background-color: #EFEFEF;padding-left:36px;position:relative;overflow: hidden;}
+.web li{width:260px;height:30px;position:relative;}
+.web li a{width:260px;height:30px;display:block;float:left;text-align: left;color:black;text-decoration: none;font-size:13px;line-height: 21px;position:absolute;top:0px;left:0px;transition:0.5s;}
+.web li:hover a{left:50px;}
+.web .webhot-1{position:absolute;top:6px;left:3px;width:16px;height:16px;display:inline-block;background: url(../img/minhot.png) no-repeat;}
+.web .webhot-2{position:absolute;top:35px;left:3px;width:16px;height:16px;display:inline-block;background: url(../img/minxin.png) no-repeat;}
+.web .webhot-3{position:absolute;top:65px;left:3px;width:16px;height:16px;display:inline-block;background: url(../img/minpin.png) no-repeat;}
+.con_right .seo{width:254px;height:200px;background-color: #EFEFEF;padding-left:36px;position:relative;overflow: hidden;}
+.seo li{width:260px;height:30px;position:relative;}
+.seo li a{width:260px;height:30px;display:block;float:left;text-align: left;color:black;text-decoration: none;font-size:13px;line-height: 21px;position:absolute;top:0px;left:0px;transition:0.5s;}
+.seo li:hover a{left:50px;}
+.seo .seohot-1{position:absolute;top:6px;left:3px;width:16px;height:16px;display:inline-block;background: url(../img/minhot.png) no-repeat;}
+.seo .seohot-2{position:absolute;top:35px;left:3px;width:16px;height:16px;display:inline-block;background: url(../img/minxin.png) no-repeat;}
+.seo .seohot-3{position:absolute;top:65px;left:3px;width:16px;height:16px;display:inline-block;background: url(../img/minpin.png) no-repeat;}
+
+/* 友情链接的样式 */
+.lianjie{width:1000px;height:80px;margin:0 auto;background-color: #EFEFEF;margin-top:10px;}
+.lianjie a{width:333px;height:40px;display:block;text-align: center;text-decoration: none;line-height: 40px;float:left;color:black;}
+.lianjie a:hover{text-decoration: underline;color:gray;}
+

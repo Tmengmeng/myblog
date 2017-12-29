@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+*{margin:0px;padding:0px;}
+.content{width:1000px;height:800px;margin:0 auto;background-color: white;}
+/* 发表留言的样式 */
+.fabiao{width:1000px;height:213px;margin:0 auto;margin-top:10px;background-color: #EFEFEF;}
+.fabiao .f-title{width:1000px;height:40px;box-sizing:border-box;line-height: 40px;font-weight: bold;font-size:16px;}
+.fabiao .f-title:BEFORE {content:"";background: url(tttttttt../img/pen.png) no-repeat;display: inline-block;width:32px;height:32px;float:left;margin-left:5px;}
+.fabiao .f-title span{width:100px;height:40px;line-height: 40px;display: inline-block;float:left;margin-left:5px;}
+
+

@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+.mine{width:1000px;height:730px;position:relative;margin-top:10px;}
+.mine .left{width:690px;height:730px;position:absolute;top:0px;left:-20px;display:none;}
+.mine .left .meme{width:670px;height:404px;float:left;color:#565b63;background-color: #EFEFEF;}
+.meme .meImg{width:300px;height:404px;float:left;box-sizing:border-box;overflow: hidden;}
+.meme .mr{width:330px;height:400px;float:left;box-sizing:border-box;margin-left:20px;}
+.meme .mr .p{width:330px;height:40px;font-size:14px;text-align: left;text-indent: 2em;}
+.meme .mr .p-1{height:85px;}
+.meme .mr .p-4{height:100px;}
+.mine .left .descri{width:670px;height:295px;margin-top:10px;float:left;background-color: #EFEFEF;}
+.descri p{text-indent: 2em;color:#565b63;font-size:14px;line-height: 30px;margin-top:15px;}
+
+.mine .right{width:290px;height:730px;position:absolute;top:0px;right:-20px;display:none;}
+.mine .right .personInfo{width:290px;height:295px;background-color: #EFEFEF;margin-top:10px;}
+.personInfo p{width:290px;height:40px;box-sizing:border-box;line-height: 40px;text-align: left;color:#565b63;padding-left:15px;box-sizing:border-box;}
+.personInfo .info{width:290px;height:220px;box-sizing:border-box;padding-left:15px;list-style: none;}
+.personInfo .info li{width:260px;height:30px;;line-height: 30px;font-size:14px;}
+
+.mine .right .guanjian{width:290px;height:130px;background-color: #EFEFEF;}
+.guanjian .g-ul{width:290px;height:120px;padding-left:10px;box-sizing:border-box;list-style: none;}
+.guanjian .g-ul li{width:50%;height:50px;float: left;margin-top:10px;}
+.guanjian .g-ul li a{width:110px;height: 40px;display: inline-block;line-height: 40px;text-align: center;color:white;text-decoration: none;border-radius:10px;margin-top:5px;}
+.guanjian .g-ul li:nth-child(1) a{background-color: #666666;}
+.guanjian .g-ul li:nth-child(2) a{background-color: #00CCCC;}
+.guanjian .g-ul li:nth-child(3) a{background-color: #CC9967;}
+.guanjian .g-ul li:nth-child(4) a{background-color: #6633CC;}
+.mine .right .ques{width:290px;height:263px;margin-top:10px;background-color: #EFEFEF;color:#565b63;}
+.ques .qu{width:290px;height:33px;font-size:18px;}
+.ques .one{font-weight: bold;text-align: center;}
+.ques .two{height:85px;font-size:14px;text-indent: 2em;line-height: 25px;}
+.ques .two span{display: inline-block;}
+.ques .two span a{text-decoration: none;color:#A3414E;}
+.ques .two span a:hover{text-decoration: underline;}
+
+
+
